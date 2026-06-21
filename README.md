@@ -1,5 +1,7 @@
 # lovable-domain-memory
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/dare2create)
+
 A lightweight knowledge accumulation system for [Lovable](https://lovable.dev) projects. Captures what you learn while working — API quirks, patterns, confirmed rules — and makes it available in every future session automatically.
 
 This is the **Lovable-native** counterpart to the Claude Code `claude-domain-memory` skill. Lovable has no `~/.claude/projects/...` filesystem, so this variant stores everything under the project's own `mem://` namespace instead.
