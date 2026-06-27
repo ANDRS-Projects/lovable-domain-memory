@@ -45,6 +45,8 @@ Review the conversation and classify:
 
 **Contradictions** (a rule proved wrong): demote — remove from Core in `mem://index.md` and move the body back into `mem://hypotheses/<slug>.md` with a note about what contradicted it.
 
+Every fact you classify gets written to its `mem://` file — that is not a judgment call. "This is just implementation detail, not a behavioral rule" is not a valid reason to skip writing it; that question only matters in Step 3, when deciding whether a fact *also* earns a one-line Core rule in the index. Most facts won't — they still get a file.
+
 ### Step 3 — Apply promotion logic
 
 - Hypothesis with **5+ confirmations** → promote: write the rule as a Core line in `mem://index.md` and (if it deserves detail) keep a full file under `mem://constraints/` or `mem://features/`. Delete or shrink the hypothesis file.
