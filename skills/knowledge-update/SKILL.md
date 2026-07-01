@@ -92,7 +92,7 @@ Replace, don't append: re-read `mem://index.md`, edit in place with `code--line_
 ## What NOT to store
 
 - Information already obvious from reading the current files
-- File paths, component names, or other things a search would find instantly
+- File paths, component names, or other things a search would find instantly — **this does not cover behavioral or UX patterns**. "Settings accordion uses hash deep-linking" is not findable by grep; it is a design decision with intent behind it and belongs in `mem://design/` or `mem://features/`. The test: could a future session accidentally redo this decision without knowing it exists? If yes, write the file.
 - Step-by-step how-to guides (those belong in a skill, not in memory)
 - Ephemeral task details from this session only
 - Lists of open or unresolved bugs
